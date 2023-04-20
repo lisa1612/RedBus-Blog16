@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Login.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+<link rel="icon" href="redblogs.png"> 
+
+<style>
+  body{
+  font-family: 'Quicksand', sans-serif;}
+  form {
+    border: 3px solid#130b52;
+    width: 40%;
+    background-color: white;
+}
+body{
+  background-color: #f0f0f0;
+  background-image:url("image.png");
+
+}
+
+
+h2{
+    text-align: center;
+}
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #130b52;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #2d1442;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.signupbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+.newuser{
+    font-size: 12px;
+    color:white;
+}
+.psw>a{
+    text-decoration: underline;
+    color: white;
+}
+.psw>a:hover{
+    color:#9ba3e6;
+}
+.fb{
+    height: 25px;
+    width: 35px;
+}
+.gl{
+    height: 20px;
+    width: 20px;
+}
+.continue{
+    display:flex ;
+    justify-content: center;
+}
+.continue>span{
+    margin: 2px;
+    padding-right: 5px;
+}
+
+.content h1
+{
+ font-size:60px;
+ font-weight:100px;
+ margin-top:24px;
+ margin-bottom:15px;
+ color:white;
+ animation: textup 12s linear infinite;
+ transform: translateY(100px);
+}
+.content p
+{
+ font-size:20px;
+ color:white;
+ animation: textup 12s linear infinite;
+ transform: translateY(100px);
+ font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+}
+
+.content
+{
+    margin-right:5%;
+    margin-top:20%;
+}
+@keyframes textup
+{
+    10%{
+        transform:translateY(0px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
+
+}
+</style>
+<script type="text/javascript">
+  function preventBack(){window.history.forward()};
+  setTimeout(preventBack(),0);
+  window.onunload=function(){null};
+</script>
+
+</head>
+<body>
+    <div class="container2">
+<div class="content"><h1>RED BLOGS</h1>
+<p>PUBLISH YOUR THOUGHTS,<br>YOUR WAY</p></div> 
+     
+<form action="username.php" method="post" id="login_form">
+<div class="imgcontainer">
+    <img src="redblogs.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    
+    <label for="Username"><b>Username</b></label>
+    <input type="email" placeholder="Enter Email" name="uname" required/>
+
+    <label for="pass"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required/>
+        
+    <button type="submit">Login</button>
+    
+   
+  </div>
+ 
+  <div class="container" style="background-color:#130b52">
+    <span class="newuser">NEW USER?</span>
+    <a href="signup.html">
+    <button type="button" class="signupbtn" onclick="href='signup.html'">SignUp</button>
+  </a>
+    <span class="psw"> <a href="#">FORGOT PASSWORD?</a></span>
+  </div>
+</form>
+
+    </div>
+
+</body>
+</html>
