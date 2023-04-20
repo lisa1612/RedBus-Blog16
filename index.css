@@ -1,0 +1,27 @@
+.btn-navy{
+    background-color: navy;
+    padding: 10px 60px;
+    border: none;
+    color: white;
+}
+.btn-green{
+    background-color: rgb(0, 128, 83);
+    padding: 10px 20px;
+    border: none;
+    color: white;
+}
+.card-img{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-b-pad{
+    padding-bottom: 50px;
+}
+.btn:hover{
+    color:white;
+    background-color: rgb(18, 18, 169);
+}

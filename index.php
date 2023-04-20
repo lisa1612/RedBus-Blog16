@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
   
 </head>
 
@@ -17,23 +18,20 @@
 <body>
   
     <header>
-        <div>
-            <ul style="display: flex;list-style-type: none ;margin-bottom: 0px;">
+        <div style=" padding:10px">
+            <ul style="display: flex;list-style-type: none ;margin-bottom: 0px;justify-content: space-between; align-items:center">
 
-            <img src="brand.jpg" alt="eyx" class="" >
-            <table>
-           <tr> <td><li style="padding-top: 0px;"><input type="search" class="searching_box" placeholder="What do you want?" style="width:90% ; margin-left :280px;padding-left:20px ;" name="ssearch"></td>
-           <td style="padding-top: 50px;">  <input type="submit" class="" style="margin-left:240px;width:100px;height:50px" value="search"></button></li></td>
-             
-            </tr>
-            </table>
-            </form>
-            <a href="login.html" style="margin:0; padding:0;">
-            <button type="button" onclick="href='login.html'" class="btn btn-primary btn-lg login_button" >LOGIN</button>
+            <img src="logo.png" alt="eyxz" class="" style="height:60px;width:60px;border-radius:100%" >
+            
+            <div style="display:flex;align-items:center">
+            <a href="image.php" style="margin-right:10px; padding:0; ">
+            <button type="button" onclick="href='image.php'" class="btn" >Create New Blog</button>
             </a>
-            <a href="signup.html">
-            <button type="button" onclick="href='signup.html'" class="btn btn-secondary btn-sm signup_button">NEW USER</button>
+            <a href="image.php" style="margin-right:10px; padding:0; ">
+            <button type="button" onclick="href='image.php'" class="btn" >Create New Blog</button>
             </a>
+            
+            </div>
             </ul>
         </div>
         
@@ -50,22 +48,22 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ">
-                  <li class="nav-item top">
-                    <a class="nav-link " target="" href="INDEX.php">Home</a>
+              <div class="" id="navbarNav">
+                <ul class=" " style="display:flex;">
+                  <li class="">
+                    <a class="nav-link " target="" href="INDEX.php" style="color:navy">Home</a>
                   </li>
-                  <li class="nav-item top">
-                    <a class="nav-link" target=""href="cars.html">History</a>
+                  <li class="">
+                    <a class="nav-link" target=""href="cars.html" style="color:navy">History</a>
                   </li>
-                  <li class="nav-item top">
-                    <a class="nav-link" target="" href="BIKE.html">Technology</a>
+                  <li class="">
+                    <a class="nav-link" target="" href="BIKE.html" style="color:navy">Technology</a>
                   </li>
-                  <li class="nav-item top">
-                    <a class="nav-link" target="" href="homeaccessories.html">Sports</a>
+                  <li class="">
+                    <a class="nav-link" target="" href="homeaccessories.html" style="color:navy">Sports</a>
                   </li>
-                  <li class="nav-item top">
-                    <a class="nav-link" target="" href="mobiles.html">Entertainment</a>
+                  <li class="">
+                    <a class="nav-link" target="" href="mobiles.html" style="color:navy">Entertainment</a>
                   </li>
                   
                 </ul>
@@ -76,7 +74,8 @@
         
     </header>
     <!-- <h2>WELCOME></h2> -->
-    <h2 class="car_heading">Fresh Recommandations</h2> 
+    <div class="" style="margin:50px 80px">
+    <h2 class="car_heading" style="margin-left:12px;margin-bottom:20px">Fresh Recommandations</h2> 
    <div class="parent_main_div">
     <!-- <div class="vertical" >
         <span>Filters</span>
@@ -117,114 +116,78 @@
     <div class="middle_section">
       <div class="container">
         <div class="row  row-cols-lg-3">
-          <div class="col">
-            <div class="card card_section" style="width: 18rem;">
-              <img class="card-img-top" src="project image/car/car15.jpg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">2,00,000 RS</h5>
-                <details>
-                  <ul>
-                  <li>28L full tank capacity</li>
-                  <li>200000 KM DRIVEN</li>
-                  <li>2010 MODEL mahindra BOLERO</li>
-                  </ul>
-                </details>
-                <a href="login.html" class="btn btn-primary">BUY</a>
-              </div>
-            </div>
-
-          </div>
-          <div class="col">
-            <div class="card card_section" style="width: 18rem;">
-              <img class="card-img-top" src="project image/bike/bike10.jpeg" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">45000 RS</h5>
+        <div class="col card-b-pad">
+            <div class="card card_section" style="width: 18rem; display:flex;flex-direction:column;justify-content:center;align-items:center">
+              <img class="card-img-top card-img" src="download-modified.png" alt="Card image cap" style="margin-top:30px">
+              <div class="card-body" style="display:flex;justify-content:center;align-items:center;flex-direction:column">
+                <h5 class="card-title">Aman Kumar</h5>
                 <p class="card-text"></p>
-                <DETAILS>
-                  <ul>
-                  <li>APACHE RTR 200</li><br>
-                  <li>197.5 CC</li><br>
-                  <li>30000KM DRIVEN</li><br>
-                  </ul>
-
-              
-                </DETAILS>
-                <a href="login.html" class="btn btn-primary">BUY</a>
+                <form action="sports.php" method="post">
+                  <button type="submit" class="btn btn-navy" style="background-color: navy;padding: 10px 60px;border: none;color: white;" name="sport" value="1">Read More</button>
+                </form>
               </div>
             </div>
           </div>
-            <div class="col">
-              <div class="card card_section" style="width: 18rem;">
-                <img class="card-img-top" src="project image/bedroom.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-t">20000RS</h5>
-                  <p class="card-text"></p>
-                  <DETAILS>
-                    <Ul>
-                    <li>2 BEDS</li><br>
-                    <li>2 MONTHS USED</li><br>
-                    <li>SLEEPY COMPANY</li><br>
-                    </Ul>
-                  </DETAILS>
-                  
-                  <a href="login.html" class="btn btn-primary">BUY</a>
-                </div>
+          <div class="col">
+            <div class="card card_section" style="width: 18rem; display:flex;flex-direction:column;justify-content:center;align-items:center">
+              <img class="card-img-top card-img" src="images (1)-modified.png" alt="Card image cap" style="margin-top:30px">
+              <div class="card-body" style="display:flex;justify-content:center;align-items:center;flex-direction:column">
+                <h5 class="card-title">elleana disouza</h5>
+                <p class="card-text"></p>
+                <form action="tech.php" method="post">
+                  <button type="submit" class="btn btn-navy" style="background-color: navy;padding: 10px 60px;border: none;color: white;" name="tech" value="1">Read More</button>
+                </form>
               </div>
-
             </div>
-            <div class="col">
-              <div class="card card_section" style="width: 18rem;">
-                <img class="card-img-top" src="project image/elctronic/e4.jpeg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">10000RS</h5>
-                  <p class="card-text"></p>
-                  <DETAILS>
-                    <ul>
-                    <li>AIR CONDITIONER</li><br>
-                    <li>10 MONTHS USED</li><br>
-                    <li>LG COMPANY</li><br>
-                    </ul>
-                    </details>
-                  <a href="login.html" class="btn btn-primary">BUY</a>
-                </div>
+          </div>
+          <div class="col">
+            <div class="card card_section" style="width: 18rem; display:flex;flex-direction:column;justify-content:center;align-items:center">
+              <img class="card-img-top card-img" src="images (2)-modified.png" alt="Card image cap" style="margin-top:30px">
+              <div class="card-body" style="display:flex;justify-content:center;align-items:center;flex-direction:column">
+                <h5 class="card-title">suhana kumari</h5>
+                <p class="card-text"></p>
+                <form action="hist.php" method="post">
+                  <button type="submit" class="btn btn-navy" style="background-color: navy;padding: 10px 60px;border: none;color: white;" name="hist" value="1">Read More</button>
+                </form>
               </div>
-
             </div>
-            <div class="col">
-              <div class="card card_section" style="width: 18rem;">
-                <img class="card-img-top" src="project image/elctronic/mobile2.jpeg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">50000RS</h5>
-                  <p class="card-text"></p>
-                  <DETAILS>
-                    <ul>
-                    <li>I PHONE PLUS CHARGER </li><br>
-                    <li>5 MONTHS USED</li><br>
-                    <li>IPHONE COMPANY</li><br>
-                    </ul>
-                    </details>
-                  <a href="login.html" class="btn btn-primary">BUY</a>
-                </div>
+          </div>
+          <div class="col">
+            <div class="card card_section" style="width: 18rem; display:flex;flex-direction:column;justify-content:center;align-items:center">
+              <img class="card-img-top card-img" src="images (4)-modified.png" alt="Card image cap" style="margin-top:30px">
+              <div class="card-body" style="display:flex;justify-content:center;align-items:center;flex-direction:column">
+                <h5 class="card-title">katy smith</h5>
+                <p class="card-text"></p>
+                <form action="sports.php" method="post">
+                  <button type="submit" class="btn btn-navy" style="background-color: navy;padding: 10px 60px;border: none;color: white;" name="sport" value="1">Read More</button>
+                </form>
               </div>
-
             </div>
-            <div class="col">
-              <div class="card card_section" style="width: 18rem;">
-                <img class="card-img-top" src="project image/furniture/furniture6.jpeg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">30000RS</h5>
-                  <p class="card-text"></p>
-                  <DETAILS>
-                    <ul>
-                    <li>SOFA</li><br>
-                    <li>4 MONTHS USED</li> <br>
-                    <li>SOFA COMPANY</li><br>
-                    
-                    </ul>
-                    </details>
-                  <a href="login.html" class="btn btn-primary">BUY</a>
-                </div>
+          </div>
+          <div class="col">
+            <div class="card card_section" style="width: 18rem; display:flex;flex-direction:column;justify-content:center;align-items:center">
+              <img class="card-img-top card-img" src="images-modified.png" alt="Card image cap" style="margin-top:30px">
+              <div class="card-body" style="display:flex;justify-content:center;align-items:center;flex-direction:column">
+                <h5 class="card-title">katy perry</h5>
+                <p class="card-text"></p>
+                <form action="tech.php" method="post">
+                  <button type="submit" class="btn btn-navy" style="background-color: navy;padding: 10px 60px;border: none;color: white;" name="tech" value="2">Read More</button>
+                </form>
               </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card_section" style="width: 18rem; display:flex;flex-direction:column;justify-content:center;align-items:center">
+              <img class="card-img-top card-img" src="profile1-modified.png" alt="Card image cap" style="margin-top:30px">
+              <div class="card-body" style="display:flex;justify-content:center;align-items:center;flex-direction:column">
+                <h5 class="card-title">Ardiana </h5>
+                <p class="card-text"></p>
+                <form action="hist.php" method="post">
+                  <button type="submit" class="btn btn-navy" style="background-color: navy;padding: 10px 60px;border: none;color: white;" name="hist" value="1">Read More</button>
+                </form>
+              </div>
+            </div>
+          </div>
 
             </div>
         </div>
@@ -234,10 +197,10 @@
      
     </div>
    </div>
+    </div>
     
-   <i class="fa-brands fa-twitter"></i>
     
-    <footer class="footer">
+    <div class="" style="display:flex;justify-content:space-around;background-color:#454545;color:white;padding:50px">
       <div>
         <h4>Trending locations</h4>
         <p>kolkata</p>
@@ -254,16 +217,16 @@
       </div>
       <div>
         <h4>About Us</h4>
-        <p> <a href="" style="text-decoration: none;  color: black;">Contact No</a></p>
-        <p><a href="" style="text-decoration: none;  color: black; ">EYX People</a></p>
+        <p> <a href="" style="text-decoration: none;">Contact No</a></p>
+        <p><a href="" style="text-decoration: none; ">EYX People</a></p>
       </div>
       <div>
         <h4>Follow us on</h4>
-        <p><a href="" class="fa-brands fa-twitter" style="text-decoration: none; color: black;">  </a> </p>
-        <p> <a href=""><i class="fa-brands fa-instagram" style="color: purple;"> </i></a></p>
+        <p><a href="" class="fa-brands fa-twitter" style="text-decoration: none; color: white;">  </a> </p>
+        <p> <a href=""><i class="fa-brands fa-instagram" style="color: white;"> </i></a></p>
         <p> <a href=""><i class="fa-brands fa-facebook">   </i></a></p>
       </div>
-    </footer>
+    </div>
     
 </body>
 </html>
